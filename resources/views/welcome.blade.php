@@ -135,7 +135,9 @@
                                                 <li><a href="../home-language/index.html">Language Academy</a></li>
                                             </ul> -->
                                         </li>
-                                        <li class="menu-item "><a href="../pages/course-grid.html">Program</a>
+                                        <li class="menu-item">
+    <a href="{{ route('program') }}">Program</a>
+</li>
                                             <!-- <ul class="sub-menu">
                                                 <li><a href="../pages/course-grid.html">Course Grid</a></li>
                                                 <li><a href="../pages/course-list.html">Course List</a></li>
@@ -163,7 +165,9 @@
                                                 <li><a href="../pages/blog-details.html">Blog Details</a></li>
                                             </ul>
                                         </li> -->
-                                        <li class="menu-item"><a href="../pages/contact.html">Contact Us</a></li>
+                                        <li class="menu-item">
+    <a href="{{ route('contact') }}">contact Us</a>
+</li>
                                     </ul>
                                 </nav>
                                 <!--=== Edufit Nav Button ===-->
